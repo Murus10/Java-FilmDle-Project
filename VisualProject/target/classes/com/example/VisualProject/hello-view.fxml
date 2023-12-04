@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.Text?>
+
+
+
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.VisualProject.Arayuz" >
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+    <Label fx:id="welcomeText"/>
+    <AnchorPane id="AnchorPane" fx:id="createPersonAnchor"  prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+        <children>
+            <ImageView fitWidth="1200.0" fitHeight="500.0">
+                <image>
+                       <Image url="@images/250.jpg" />
+                </image>
+            </ImageView>
+            <TextField fx:id="myTextField" layoutX="150.0" layoutY="-100.0" prefHeight="25.0" prefWidth="650.0" text="Film tahminizi yazınız." />
+            <Button layoutX="825.0" layoutY="-100.0" prefHeight="25.0" prefWidth="150.0" text="Tahmin" onAction="#Motor"/>
+            <Text text="1030521078 Mehmet Uruş"  layoutX="5.0" layoutY="-120.0"/>
+            <Rectangle fx:id="rectangle"   fill="Red" height="75.0" layoutX="75.0"  layoutY="-25.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle2"  fill="Red" height="75.0" layoutX="250.0" layoutY="-25.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle3"  fill="Red" height="75.0" layoutX="425.0" layoutY="-25.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle4"  fill="Red" height="75.0" layoutX="600.0" layoutY="-25.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle5"  fill="Red" height="75.0" layoutX="775.0" layoutY="-25.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle6"  fill="Red" height="75.0" layoutX="950.0" layoutY="-25.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle7"  fill="Red" height="75.0" layoutX="75.0"  layoutY="75.0"  stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle8"  fill="Red" height="75.0" layoutX="250.0" layoutY="75.0"  stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle9"  fill="Red" height="75.0" layoutX="425.0" layoutY="75.0"  stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle10" fill="Red" height="75.0" layoutX="600.0" layoutY="75.0"  stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle11" fill="Red" height="75.0" layoutX="775.0" layoutY="75.0"  stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle12" fill="Red" height="75.0" layoutX="950.0" layoutY="75.0"  stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle13" fill="Red" height="75.0" layoutX="75.0"  layoutY="175.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle14" fill="Red" height="75.0" layoutX="250.0" layoutY="175.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle15" fill="Red" height="75.0" layoutX="425.0" layoutY="175.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle16" fill="Red" height="75.0" layoutX="600.0" layoutY="175.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle17" fill="Red" height="75.0" layoutX="775.0" layoutY="175.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle18" fill="Red" height="75.0" layoutX="950.0" layoutY="175.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle19" fill="Red" height="75.0" layoutX="75.0"  layoutY="275.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle20" fill="Red" height="75.0" layoutX="250.0" layoutY="275.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle21" fill="Red" height="75.0" layoutX="425.0" layoutY="275.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle22" fill="Red" height="75.0" layoutX="600.0" layoutY="275.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle23" fill="Red" height="75.0" layoutX="775.0" layoutY="275.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle24" fill="Red" height="75.0" layoutX="950.0" layoutY="275.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle25" fill="Red" height="75.0" layoutX="75.0"  layoutY="375.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle26" fill="Red" height="75.0" layoutX="250.0" layoutY="375.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle27" fill="Red" height="75.0" layoutX="425.0" layoutY="375.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle28" fill="Red" height="75.0" layoutX="600.0" layoutY="375.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle29" fill="Red" height="75.0" layoutX="775.0" layoutY="375.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Rectangle fx:id="rectangle30" fill="Red" height="75.0" layoutX="950.0" layoutY="375.0" stroke="azure" strokeWidth="7" strokeDashArray="7" strokeType="INSIDE" width="150.0" visible="false" />
+            <Label fx:id="myLabel"   prefHeight="40" prefWidth="200" layoutX="100.0" layoutY="0.0"   visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel2"  prefHeight="40" prefWidth="200" layoutX="305.0" layoutY="0.0"   visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel3"  prefHeight="40" prefWidth="200" layoutX="475.0" layoutY="0.0"   visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel4"  prefHeight="40" prefWidth="200" layoutX="660.0" layoutY="0.0"   visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel5"  prefHeight="40" prefWidth="200" layoutX="795.0" layoutY="0.0"   visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel6"  prefHeight="40" prefWidth="200" layoutX="980.0" layoutY="0.0"   visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel7"  prefHeight="40" prefWidth="200" layoutX="100.0" layoutY="100.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel8"  prefHeight="40" prefWidth="200" layoutX="305.0" layoutY="100.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel9"  prefHeight="40" prefWidth="200" layoutX="475.0" layoutY="100.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel10" prefHeight="40" prefWidth="200" layoutX="660.0" layoutY="100.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel11" prefHeight="40" prefWidth="200" layoutX="795.0" layoutY="100.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel12" prefHeight="40" prefWidth="200" layoutX="980.0" layoutY="100.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel13" prefHeight="40" prefWidth="200" layoutX="100.0" layoutY="200.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel14" prefHeight="40" prefWidth="200" layoutX="305.0" layoutY="200.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel15" prefHeight="40" prefWidth="200" layoutX="475.0" layoutY="200.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel16" prefHeight="40" prefWidth="200" layoutX="660.0" layoutY="200.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel17" prefHeight="40" prefWidth="200" layoutX="795.0" layoutY="200.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel18" prefHeight="40" prefWidth="200" layoutX="980.0" layoutY="200.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel19" prefHeight="40" prefWidth="200" layoutX="100.0" layoutY="300.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel20" prefHeight="40" prefWidth="200" layoutX="305.0" layoutY="300.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel21" prefHeight="40" prefWidth="200" layoutX="475.0" layoutY="300.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel22" prefHeight="40" prefWidth="200" layoutX="660.0" layoutY="300.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel23" prefHeight="40" prefWidth="200" layoutX="795.0" layoutY="300.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel24" prefHeight="40" prefWidth="200" layoutX="980.0" layoutY="300.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel25" prefHeight="40" prefWidth="200" layoutX="100.0" layoutY="400.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel26" prefHeight="40" prefWidth="200" layoutX="305.0" layoutY="400.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel27" prefHeight="40" prefWidth="200" layoutX="475.0" layoutY="400.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel28" prefHeight="40" prefWidth="200" layoutX="660.0" layoutY="400.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel29" prefHeight="40" prefWidth="200" layoutX="795.0" layoutY="400.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+            <Label fx:id="myLabel30" prefHeight="40" prefWidth="200" layoutX="980.0" layoutY="400.0" visible="false" maxWidth="115" maxHeight="65" textFill="azure"/>
+        </children>
+
+    </AnchorPane>
+
+
+</VBox>
